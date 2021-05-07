@@ -20,7 +20,6 @@ export class TargetComponent implements OnInit {
   }
 
   shoot(event: MouseEvent) {
-    console.log((event.x ** 2 + event.y ** 2) === (this.r + this.center) ** 2);
     console.log(event.x, event.y);
 
   }
